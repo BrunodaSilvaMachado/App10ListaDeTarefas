@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:orientation="vertical" android:layout_width="match_parent"
+                                   android:layout_height="wrap_content" android:id="@+id/item_tarefa"
+                                   android:layout_marginTop="4dp" android:layout_marginBottom="4dp"
+>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+        <TextView
+                android:text="Estudar Android"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/textTarefa" android:textSize="18sp"
+                android:padding="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" android:layout_weight="1"/>
+        <ImageButton android:layout_width="48dp" android:layout_height="48dp" android:text="@string/add"
+                     android:id="@+id/shareButton" app:srcCompat="?attr/actionModeShareDrawable"
+                     android:contentDescription="@string/share" android:background="#E6E6E6"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
